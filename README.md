@@ -8,7 +8,7 @@
   <h3 align="center">News API Project</h3>
 
   <p align="center">
-    This app takes data from NewsAPI.org and displays it using React.JS, Axios, React-Bootstrap, REST API's and Styled Components.
+    This app transforms data from NewsAPI.org and renders it using React.JS, Axios, React-Bootstrap, REST API's and Styled Components.
     <br />
 
 
