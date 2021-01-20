@@ -38,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![NewsProduct Screenshot][https://github.com/henryngann/NewsProject/blob/master/newsprojects.png]](google.com)
 
 
 
