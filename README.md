@@ -5,10 +5,10 @@
   
   </a>
 
-  <h3 align="center">News Project</h3>
+  <h3 align="center">News API Project</h3>
 
   <p align="center">
-    This News Project takes data from a News API and displays it using React.JS, Axios, React-Bootstrap,Context-API's and Styled Components.
+    This app takes data from NewsAPI.org and displays it using React.JS, Axios, React-Bootstrap,Context-API's and Styled Components.
     <br />
 
 <!-- TABLE OF CONTENTS -->
