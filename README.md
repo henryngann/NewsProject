@@ -36,9 +36,9 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project - Click For Demo
 
-[![Click Me!](https://github.com/henryngann/NewsProject/blob/master/newsprojects.png)]()
+[![Click Me!](https://github.com/henryngann/NewsProject/blob/master/newsprojects.png)](https://github.com/henryngann/NewsProject/blob/master/README.md)
 
 
 
