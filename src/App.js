@@ -35,26 +35,36 @@ function App() {
         }}
       ></input>
       <Row className="justify">
-        {news.map((news, key) => (
-          <Col
-            md={4}
-            style={{
-              width: "300px",
-              height: "420px",
-              marginTop: "30px",
-              overflow: "hidden",
-            }}
-          >
-            <News
-              className=""
-              title={news.title}
-              description={news.description}
-              author={news.author}
-              urlToImage={news.urlToImage}
-              url={news.url}
-            />
-          </Col>
-        ))}
+        {news
+          .filter((val) => {
+            if (searchTerm == "") {
+              return val;
+            } else if (
+              val.title.toLowerCase().includes(searchTerm.toLowerCase())
+            ) {
+              return val;
+            }
+          })
+          .map((news, key) => (
+            <Col
+              md={4}
+              style={{
+                width: "300px",
+                height: "420px",
+                marginTop: "30px",
+                overflow: "hidden",
+              }}
+            >
+              <News
+                className=""
+                title={news.title}
+                description={news.description}
+                author={news.author}
+                urlToImage={news.urlToImage}
+                url={news.url}
+              />
+            </Col>
+          ))}
       </Row>
     </Container>
   );
