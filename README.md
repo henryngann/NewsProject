@@ -21,12 +21,10 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        
-      </ul>
-    </li>
-    <li><a href="#contact">Contact</a></li>
-  
+        <li>
+          <a href="#prerequisites">Prerequisites</a></li>
+        <li>
+  </ul>
   </ol>
 </details>
 
