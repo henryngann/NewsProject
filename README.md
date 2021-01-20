@@ -8,7 +8,7 @@
   <h3 align="center">News API Project</h3>
 
   <p align="center">
-    This app takes data from NewsAPI.org and displays it using React.JS, Axios, React-Bootstrap,Context-API's and Styled Components.
+    This app takes data from NewsAPI.org and displays it using React.JS, Axios, React-Bootstrap, REST API's and Styled Components.
     <br />
 
 <!-- TABLE OF CONTENTS -->
@@ -60,6 +60,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    npm install react-bootstrap bootstrap
    npm install axios
+   npm install --save styled-components
    ```
 
 
