@@ -38,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![google.com](https://github.com/henryngann/NewsProject/blob/master/newsprojects.png)
+[![Click Me!](https://github.com/henryngann/NewsProject/blob/master/newsprojects.png)]()
 
 
 
