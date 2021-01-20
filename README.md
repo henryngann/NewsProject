@@ -23,7 +23,7 @@
       <ul>
         <li>
           <a href="#prerequisites">Prerequisites</a></li>
-        <li>
+       
   </ul>
   </ol>
 </details>
