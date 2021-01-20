@@ -27,14 +27,32 @@ function App() {
 
   return (
     <Container>
-      <input
-        type="text"
-        placeholder="Search..."
-        onChange={(event) => {
-          setSearchTerm(event.target.value);
-        }}
-      ></input>
-      <Row className="justify">
+      <Row className="justify-content-md-center mb-5 mt-5">
+        <Col md={12}>
+          <h1
+            style={{
+              marginTop: "30px",
+              marginBottom: "30px",
+            }}
+          >
+            News Project
+          </h1>
+          <h6>Top Business Headlines in the US</h6>
+        </Col>
+      </Row>
+      <Row className="justify-content-md-center mb-5 mt-5">
+        <Col md={0}>
+          <input
+            type="text"
+            style={{ width: "300px", alignSelf: "center" }}
+            placeholder="Search..."
+            onChange={(event) => {
+              setSearchTerm(event.target.value);
+            }}
+          ></input>
+        </Col>
+      </Row>
+      <Row className="justify-content-md-center mb-5 mt-5">
         {news
           .filter((val) => {
             if (searchTerm == "") {
